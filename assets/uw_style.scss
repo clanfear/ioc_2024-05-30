@@ -1,0 +1,37 @@
+/*-- scss:defaults --*/
+$theme-purple: #32006e;
+$theme-teal: #2ad2c9;
+$theme-pink: #e93cac;
+$theme-white: #F7F8F9;
+$theme-gold: #b7a57a;
+$theme-heritage: #85754d;
+$theme-green: #aadb1e;
+$theme-spirit: #4b2e83;
+$theme-lavender: #c5b4e3;
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+$body-bg: $theme-purple;
+$body-color: $theme-white;
+$link-color: $theme-teal;
+$presentation-heading-color: $theme-gold;
+
+$font-family-sans-serif: 'Encode Sans', sans-serif;
+$presentation-heading-font: 'Roboto Slab', serif;
+
+/*-- scss:rules --*/
+.reveal .slide strong {
+  color: $theme-pink;
+}
+.reveal .slide a {
+  color: $theme-teal;
+}
+.reveal table td {
+  border-bottom: none;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

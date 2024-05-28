@@ -1,0 +1,106 @@
+---
+format:
+  revealjs:
+    theme: [default, assets/uw_style.scss]
+    logo: img/uw-white.png
+    incremental: false
+    self-contained: true
+    width: 1200
+    height: 800
+    auto-stretch: true
+editor: source
+mouse-wheel: true
+history: false
+---
+
+
+
+## [Disorder and Social Control:<br>Experimental evidence on prosocial<br>and antisocial decision making]{.r-fit-text}{background-image="img/title_slide_img.png" background-size=contain background-position=bottom}
+
+
+&nbsp;
+
+|                    |                           |
+|-------------------:|:--------------------------|
+| Charles C. Lanfear | *University of Cambridge* |
+| Ross L. Matsueda  | *University of Washington*      |
+
+
+
+```{r setup}
+#| include: false
+
+uw_colors <- 
+  c("husky_purple" = "#32006e",
+    "husky_gold" = "#b7a57a",
+    "spirit_purple" = "#4b2e83",
+    "heritage_gold" = "#85754d",
+    "accent_green" = "#aadb1e",
+    "accent_teal" = "#2ad2c9",
+    "accent_pink" = "#e93cac",
+    "accent_lavender" ="#c5b4e3")
+knitr::opts_chunk$set(dev = "ragg_png",  
+                      dev.args = list(bg = 'transparent'),
+                      message = FALSE,
+                      echo = FALSE,
+                      warning = FALSE,
+                      fig.showtext = TRUE,
+                      fig.retina = 5,
+                      fig.align = "center")
+library(tidyverse)
+library(showtext)
+plot_font <- "Encode Sans"
+font_add_google(name = plot_font)
+showtext_auto()
+```
+
+
+## [Wilson & Kelling's (1982) Broken Windows]{.r-fit-text}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](img/broken_windows_pretty.svg)
+:::
+
+::: {.column width="40%"}
+* A: Disorder signals low guardianship which increases offending
+
+* B, E: Disorder and crime constrain social relations and impede control
+
+* C, D: Social control inhibits both disorder and crime
+:::
+
+::::
+
+
+Implicit rational choice macro-micro model
+
+
+
+## [Keizer, Lindenberg, & Steg's (2008) Experiments]{.r-fit-text}
+
+Keizer et al. used multiple disorder manipulations and recorded norm violation with field experiments in Groningen, the Netherlands to test the direct micro-mechanism of broken windows.
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](img/keizer.svg)
+:::
+
+::: {.column width="40%"}
+* Disorder greatly increased all norm violation (A)
+
+* Strong **internal validity** from experimental design
+
+* Weak **external validity**: Single sites in one city, small-scale, minor norm violations
+
+* Criticism: [Wicherts & Bakker (2014)](https://doi.org/10.1177/1368430213502); [Lanfear (2017)](http://hdl.handle.net/1773/40974)
+:::
+
+::::
+
+
+*Highly cited evidence for causal effect of disorder on crime*
