@@ -76,7 +76,6 @@ At the macro-level [Wilson & Kelling (1982)](https://www.theatlantic.com/magazin
 
 Keizer et al. used multiple disorder manipulations and recorded norm violation with field experiments in Groningen, the Netherlands to test micro-level direct effects implied by broken windows.
 
---
 
 .pull-left[
 
@@ -105,7 +104,6 @@ Keizer et al. used multiple disorder manipulations and recorded norm violation w
 # Collective Efficacy
 
 [Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) describe communities as a recursive system where disorder and crime are the result of low collective efficacy, i.e., social control capacity.
---
 
 .pull-left-60[
 ![Collective Efficacy](img/collective_efficacy_pretty.svg)
@@ -129,7 +127,6 @@ Keizer et al. used multiple disorder manipulations and recorded norm violation w
 
 Simultaneous equations of crime, disorder, and collective efficacy in Chicago neighborhoods, using survey-measured collective efficacy and objectives measure of disorder: Video of block faces coded by researchers.
 
---
 
 .pull-left[
 ![Sampson & Raudenbush (1999)](img/sampson.svg)
