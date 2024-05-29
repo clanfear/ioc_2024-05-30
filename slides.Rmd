@@ -50,9 +50,7 @@ class: inverse, cct
 
 # Broken Windows
 
-[Wilson & Kelling (1982)](https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/) describe a system where community disorder (1) increases crime by 
-signalling low social control to offenders and (2) decreases actual social control by reducing willingness to use public spaces.
---
+At the macro-level [Wilson & Kelling (1982)](https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/) describe communities as a non-recursive system where...
 
 .pull-left-60[
 
@@ -63,20 +61,20 @@ signalling low social control to offenders and (2) decreases actual social contr
 .pull-right-40[
 * A: Disorder signals low guardianship which increases offending
 
-* B, E: Disorder and crime constrain social relations and impede control
+* B, E: Disorder and crime signal danger and constrain social relations and impede control
 
-* C, D: Social control inhibits both disorder and crime
+* C, D: Social control inhibits disorder and crime
 ]
 
 .centernote[
-*Explicit rational macro-micro model*
+*A macro-micro model with explicit rational decision-making mechanisms*
 ]
 
 ---
 
 ## Keizer, Lindenberg, & Steg (2008)
 
-Keizer et al. used multiple disorder manipulations and recorded norm violation with field experiments in Groningen, the Netherlands to test the direct micro-mechanism of broken windows.
+Keizer et al. used multiple disorder manipulations and recorded norm violation with field experiments in Groningen, the Netherlands to test micro-level direct effects implied by broken windows.
 
 --
 
@@ -90,9 +88,9 @@ Keizer et al. used multiple disorder manipulations and recorded norm violation w
 
 * Disorder greatly increased all norm violation (A)
 
-* Strong **internal validity** from experimental design
+* **Strong internal validity** from experimental design
 
-* Weak **external validity**: Single sites in one city, small-scale, minor norm violations
+* **Weak external validity**: Single sites in one city with isolated minor norm violations
 
 * Criticism: [Wicherts & Bakker (2014)](https://doi.org/10.1177/1368430213502); [Lanfear (2017)](http://hdl.handle.net/1773/40974)
 
@@ -106,7 +104,7 @@ Keizer et al. used multiple disorder manipulations and recorded norm violation w
 
 # Collective Efficacy
 
-[Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) contend that disorder and crime are both manifestations of low collective efficacy—the community's capacity for informal social control.
+[Sampson & Raudenbush (1999)](https://doi.org/10.1086/210356) describe communities as a recursive system where disorder and crime are the result of low collective efficacy, i.e., social control capacity.
 --
 
 .pull-left-60[
@@ -116,11 +114,13 @@ Keizer et al. used multiple disorder manipulations and recorded norm violation w
 .pull-right-40[
 * A: Disorder has no direct impact on crime
 
-* C, D: Disorder and crime are products of low collective efficacy—social control—which is exogenous (B, E)
+* C, D: Disorder and crime are products of low collective efficacy
+
+* B, E: Social control is exogenous
 ]
 
 .centernote[
-*Implicit rational choice macro-micro model*
+*A macro model with implicit decision-making micro mechanisms*
 ]
 
 ---
@@ -144,13 +144,13 @@ Simultaneous equations of crime, disorder, and collective efficacy in Chicago ne
 
 * Control for crime impact on collective efficacy (E), but assume no disorder feedback (B)
 
-* Strong **external validity**: *Actual* disorder, crime, neighbourhoods
+* **Strong external validity**: *Real* disorder, crime, neighborhoods
 
-* Weak **internal validity**: Cross-sectional, covariate adjustment
+* **Weak internal validity**: Cross-sectional, covariate adjustment, ambiguous mechanisms
 ]
 
 .centernote[
-*Implicit macro-micro model*
+*Influential observational macro-level evidence*
 ]
 
 
@@ -158,6 +158,18 @@ Simultaneous equations of crime, disorder, and collective efficacy in Chicago ne
 
 # Key Questions
 
+
+* **How do we reconcile these results?**
+
+* **How can we balance external and internal validity?**
+
+<br>
+
+Some preliminary thoughts:
+
+.image-50[
+![](img/annual_review.PNG)
+]
 
 ---
 class: inverse, sncp
@@ -170,7 +182,7 @@ class: inverse, sncp
 
 ## The Experiments
 
-Over 2000 person-hours of **field experiments**, conducted over four years, embedded in representative Seattle neighbourhoods with rich **ecological survey data** (2002-2003 SNCS)
+Over 2000 person-hours of **field experiments**, conducted over four years, embedded in representative Seattle neighbourhoods with rich **ecological survey data** (2002-2003 SNCS), e.g., collective efficacy 
 
 * Balance experimental and observational strengths and weaknesses
 
@@ -363,11 +375,7 @@ count: false
 
 --
 
-* Record gender, age, race, and grouping of participants to adjust for differences between and interference within trials
-
---
-
-* Record if disorder present *prior to trial* to test asymmetry
+* Record gender, age, race, and grouping of participants
 
 --
 
@@ -394,7 +402,7 @@ Objective: Causal test of direct effect of disorder on crime (A).
 
 # Mailbox: Model
 
-Our Experiment: Causal tests of direct effects of disorder on crime and prosocial behavior—and associations with collective efficacy
+Our Experiment: Causal tests of direct effects of disorder on criminal and prosocial decisions—and associations with collective efficacy
 <br>
 
 .image-75[
@@ -465,12 +473,11 @@ tribble(~Condition, ~`Walk-By`, ~Mail, ~Theft,
 * Collective efficacy predicts less **theft** and **prior disorder**
 
    * Consistent with ecological studies and suggests external validity
+
 --
 
-* **Prior disorder** predicts thefts, but no difference in treatment effect
-
-   * Association persists once disorder removed—not local disorder effect
-
+* Replicated in Oxford in Summer 2022 (108 trials, 3808 participants)
+   
 ---
 
 class: inverse, littering
@@ -484,33 +491,30 @@ class: inverse, littering
 A confederate walks down the street and flagrantly litters in view of passersby near a trash can with a no-littering sign.<sup>1</sup>
 
 .footnote[[1] Or perhaps hits their dog with garbage.
-<br>
 ]
 
 --
 
-Researchers record if confederate is sanctioned—**risky prosocial behavior**—or litter disposed of by participant—**low-risk prosocial behavior**. *Content* of sanction is also recorded.
+Record if...
+
+* Participant decides to **sanction**—risky prosocial behavior
+* Participant decides to **throw litter away**—low-risk prosocial behavior
 
 --
 
-Litter and a sign board with graffiti are introduced to manipulate disorder.
+Litter and a sign board with graffiti are introduced to **manipulate disorder**.
 
 --
 
-Replicated with three confederates of varying gender and race to manipulate interpersonal context which may influence evaluations of risk:<sup>2</sup>
+Confederate varied to **manipulate interpersonal context**:
    * Black Man
    * White Man
    * White Woman
 
-.footnote[[2] Gender and race also relate to normative expectations.]
-
 --
 
-We conducted 576 trials in 12 Seattle census tracts.
+Full factorial design: 576 trials in 12 census tracts
 
-???
-
-8 trials per person per condition in 12 tracts. 8 x 2 x 3 x 12
 
 ---
 
@@ -521,7 +525,7 @@ We conducted 576 trials in 12 Seattle census tracts.
 ]
 
 .pull-right[
-* Test of direct effect of disorder on sanctioning (B).
+* Test of direct effect of disorder on decision to sanction (B).
 ]
 
 ---
@@ -534,7 +538,7 @@ count: false
 ]
 
 .pull-right[
-* Test of direct effect of disorder on sanctioning (B).
+* Test of direct effect of disorder on decision to sanction (B).
 
 * Norm-Violation is *fixed*—all relationships are conditional on the offense occurring.
 ]
@@ -549,11 +553,11 @@ count:false
 ]
 
 .pull-right[
-* Test of direct effect of disorder on sanctioning (B).
+* Test of direct effect of disorder on decision to sanction (B).
 
 * Norm-Violation is *fixed*—all relationships are conditional on the offense occurring.
 
-* Test effect of interpersonal context of norm violation on sanctioning (L).
+* Test effect of interpersonal context on decision to sanction (L).
 ]
 
 ---
@@ -566,13 +570,13 @@ count:false
 ]
 
 .pull-right[
-* Test of direct effect of disorder on sanctioning (B).
+* Test of direct effect of disorder on decision to sanction (B).
 
 * Norm-Violation is *fixed*—all relationships are conditional on the offense occurring.
 
-* Test effect of interpersonal context of norm violation on sanctioning (L).
+* Test effect of interpersonal context on decision to sanction (L).
 
-* Captures association between collective efficacy and sanctioning (M).
+* Estimate association between collective efficacy and sanctioning (M).
 ]
 
 ---
@@ -633,27 +637,17 @@ count:false
 
 Key Findings:
 
-* No *unconditional* effect of disorder on sanctions—a risky prosocial action.
-   * Disorder *interacts* with confederate race/gender.
+* Sanctioning is rare and on average **unaffected by disorder**.
+   * Effect **varies by confederate characteristics**.
 
 --
-* Collective efficacy and letter returns did not predict sanctioning (M).
+* Collective efficacy **did not predict sanctioning** (M).
 
 --
-* Sanctioning varies widely by confederate in both *quantity* and *content*.
-   * White woman: *Confrontational* sanctions usually from men.
-   * Black man: *Non-confrontational* sanctions only from women.
-   * White man: *Non-confrontational* sanctions, men and women.
-
-???
-
-One of the big takeaways here is that sanctioning for littering is just really quite rare. 
-
-As a result, our test here is underpowered.
-
-LB: 11/13 from men
-TP: 3 sanctions from women
-CL; 6/10 sanctions from men
+* **Sanctioning form varies** by confederate:
+   * White woman received *confrontational* sanctions from *men*.
+   * Black man received *non-confrontational* sanctions from *women*.
+   * White man received *non-confrontational* sanctions from *everyone*.
 
 ---
 
@@ -718,42 +712,79 @@ We also evaluated if our interventions impacted throwing away the dropped litter
 
 Key Findings:
 
-* Disorder treatment reduces throwing away.
+* Disorder treatment **reduces throwing away**.
 
-    * This effect also conditional on confederate characteristics.
+    * Effect again **varies by confederate characteristics**.
 --
 
-* Collective efficacy and letter returns do not predict throwing away.
+* Collective efficacy and letter returns **do not predict throwing away**.
 
-
+---
+class: inverse
+# Summary
 
 ---
 
+# Experimental Results
 
-# Other Experiment Results
+Across all experiments, we found...
 
-* Collective efficacy strongly predicts lost letter returns
+.pull-left[
+![](img/synthesis.svg)
+]
 
-   * Contextual effects (letter addressee) exert strong effects
-   * i.e., people don't like nazis
+.pull-right[
+* No disorder effect on theft, a risky behavior (A).
+
+* Disorder attenuates low-risk prosocial actions—mailing letters, throwing away litter (B).
+
+* Collective efficacy predicts some low-risk prosocial action (H,K), but not sanctioning (high risk).
+
+* Risky prosocial behavior is mainly sensitive to interpersonal context (I).
+]
+
+---
+
+# Prosocial Decision Making
+
+*We know relatively little about behavioral micro-mechanisms of community theories of crime, particularly sanctioning.*
+
+
+Contexts of prosocial behavior are important but neglected considerations for community theories of crime.
 
 --
 
-* Collectively efficacious neighbourhoods really hate my litter cameras
+   * Collective efficacy is associated with risk factors—such as retaliation from the sanctioned—as well as criminal opportunities (Lanfear 2022).
 
-   * Suggests large differences in clean-up speed
+???
 
---
-
-* Mailbox experiment replicated in Oxford in Summer 2022
-   
-   * No effect on theft (108 trials, 3808 participants)
-   * High walk-by rate, likely due to heavier foot traffic
+Perceived likelihood of retaliation may be low in high CE areas, and objective opportunities may also be lower.
 
 --
 
-.centernote[*We're still working on the big picture*]
+   * Disorder may be a signal for risks or other costs.
 
+???
+
+Broken windows highlights this---that disorder serves as a signal. What it signals appears to be more complex than BW as investigated by Innes (2004).
+
+--
+
+   * Disorder may signal that interventions will have limited benefit.
+
+???
+
+Little effort required to clean up a single piece of litter, but what difference does picking it up make if there's tons on the ground?
+
+--
+
+   * Context may cause general prosocial intentions to differ from behavior (see [St. Jean 2007](https://www.press.uchicago.edu/ucp/books/book/chicago/P/bo5298963.html)).
+
+--
+
+.text-center[
+*Community theories must engage directly with decision making mechanisms*
+]
 
 ---
 class: inverse
