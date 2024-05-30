@@ -322,7 +322,7 @@ body {
 }
 .title-slide {
   background-color: #342c5c;
-  background-image: url(cam_white.svg), url(pioneer_square.jpg);
+  background-image: url(cam_white.svg), url(title_slide_img.png);
   background-position: center center, center bottom;
   background-size: contain, contain;
 }
